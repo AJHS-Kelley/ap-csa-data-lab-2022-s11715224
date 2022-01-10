@@ -25,4 +25,25 @@ public class Cereal {
 
 
     }
+
+    //Getters
+
+    public String getNames(){
+
+        return name;
+    }
+    
+    public double getFiber(){
+
+        return fiber;
+    }
+    public double getCup(){
+
+        return cup;
+    }
+
+    public double getFPS(){
+
+        return FPS;
+    }
 }
