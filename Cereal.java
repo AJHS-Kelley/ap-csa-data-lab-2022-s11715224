@@ -1,4 +1,4 @@
-// robin/rachel macdonald, AP Data Lab 1/12/2022 v.0.4
+// robin/rachel macdonald, AP Data Lab 1/12/2022 v.0.5
 
 public class Cereal {
   
@@ -59,6 +59,11 @@ public static void main(String[] args){
    Cereal food1 = new Cereal();
    System.out.println(food1.toString());
     
+    Cereal food2 = new Cereal ("Raisin Bran", 5.0, 0.75, 0.0);
+    System.out.println(food2.toString());
+
+
+
 }
 
 
