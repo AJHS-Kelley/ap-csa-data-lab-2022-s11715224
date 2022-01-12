@@ -1,17 +1,17 @@
-// robin/rachel macdonald, AP Data Lab 1/12/2022 v.0.5
+// robin/rachel macdonald, AP Data Lab 1/12/2022 v.0.7
 
 public class Cereal {
   
     private String name;
-    private double fiber;
-    private double cup;
+    private double fiber0;
+    private double cup0;
     private double FPC;
 
-    public Cereal(String name, double fiber, double cup, double fiberPerCup){
+    public Cereal(String cerealName, double fiber, double cup, double fiberPerCup){
         
-        name = name;
-        fiber = fiber;
-        cup = cup;
+        name = cerealName;
+        fiber0 = fiber;
+        cup0 = cup;
         FPC = fiberPerCup;
 
     }
@@ -19,8 +19,8 @@ public class Cereal {
     public Cereal(){
 
         name = "";
-        fiber = 0.0;
-        cup = 0.0;
+        fiber0 = 0.0;
+        cup0 = 0.0;
         FPC = 0.0;
 
 
@@ -35,11 +35,11 @@ public class Cereal {
     
     public double getFiber(){
 
-        return fiber;
+        return fiber0;
     }
     public double getCup(){
 
-        return cup;
+        return cup0;
     }
 
     public double getFPS(){
@@ -51,7 +51,7 @@ public class Cereal {
 
 public String toString(){
 
-    return "Cereal Name: " + name + "\nFiber Content: " + fiber +"\nSereving Size (CUPS): " + cup + "\nFiber Per Cup: " + FPC;
+    return "Cereal Name: " + name + "\nFiber Content: " + fiber0 +"\nSereving Size (CUPS): " + cup0 + "\nFiber Per Cup: " + FPC;
 }
 
 public static void main(String[] args){
