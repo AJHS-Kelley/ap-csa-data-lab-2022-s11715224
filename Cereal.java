@@ -1,4 +1,4 @@
-// robin/rachel macdonald, AP Data Lab 1/10/2022 v.0.2
+// robin/rachel macdonald, AP Data Lab 1/12/2022 v.0.4
 
 public class Cereal {
   
@@ -44,6 +44,15 @@ public class Cereal {
 
     public double getFPS(){
 
-        return FPS;
+        return FPC;
     }
+
+//toString method
+
+public String toString(){
+
+    return "Cereal Name: " + name + "Fiber Content: " + fiber +"Sereving Size (CUPS): " + cup + "Fiber Per Cup: " + FPC;
+}
+
+
 }
